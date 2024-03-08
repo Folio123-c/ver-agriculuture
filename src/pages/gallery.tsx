@@ -2,9 +2,11 @@ import React from 'react'
 import NavBar from '../copmponents/navBar'
 import "./gallery.css"
 import Footer from '../copmponents/footer'
+import Head from '../copmponents/new'
 const Gallery = () => {
   return (
     <div>
+<Head/>
 <NavBar/>
         <div className='galleryContainer'>
             <div className='px-10 py-1 bg-[#385656] text-white w-40 ml-20 relative top-36'>

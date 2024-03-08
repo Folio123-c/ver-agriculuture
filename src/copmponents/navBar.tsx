@@ -9,7 +9,7 @@ import { FiPhoneCall } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 const NavBar = () => {
     return (
-        <div className='w-full flex'>
+        <div className='w-full hidden lg:flex mt-20'>
             <div className='w-[10%] bg-[#07847f] pl-10'>
                 <img src="https://verrwanda.org/images/logo-removebg-preview.png" alt="logo" />
             </div>
@@ -26,7 +26,7 @@ const NavBar = () => {
                 <div className='flex gap-3'> <MdOutlineMail fill='white' className='mt-1'/><h1>info@verrwanda.org</h1></div>
                 
             </div>
-            <div className='bg-white flex justify-between p-2 text-black text-lg font-medium h-[6rem] w-full'>
+            {/* <div className='bg-white flex justify-between p-2 text-black text-lg font-medium h-[6rem] w-full'>
                 <ul className='flex gap-10 text-[#8b9e9e] ml-20 mt-6'>
                  <Link to='/'>  <li>  Home</li></Link> 
                  <Link to='/home/about'>  <li>About</li></Link>
@@ -44,7 +44,7 @@ const NavBar = () => {
                 </div>
                 </div>
 
-            </div>
+            </div> */}
             </div>
         </div>
     )

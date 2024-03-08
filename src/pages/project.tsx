@@ -2,9 +2,11 @@ import React from 'react'
 import NavBar from '../copmponents/navBar'
 import "./gallery.css"
 import Footer from '../copmponents/footer'
+import Head from '../copmponents/new'
 const Project = () => {
     return (
         <div className='bg-[#edefef] w-full'>
+            <Head/>
             <NavBar />
             <div className='aboutContainer'>
                 <div className='px-10 py-1 bg-[#385656] text-white w-40 ml-20 relative top-36'>
@@ -14,21 +16,21 @@ const Project = () => {
             </div>
             <div className='w-[80%] m-auto'>
                 <h1 className='text-5xl  font-bold py-10  text-center '>Ver Projects</h1>
-                <div className='flex gap-20'>
+                <div className='xl:flex gap-20'>
                     <div className='relative '>
-                        <div className='absolute pt-2 w-60 h-40'>
+                        <div className='absolute pt-2 w-32 lg:w-60 h-40'>
                             <img src="https://images.pexels.com/photos/4090605/pexels-photo-4090605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
-                        <div className='absolute pt-20 w-60 h-40 left-40'>
+                        <div className='absolute pt-20 w-32 lg:w-60 h-40 left-40'>
                             <img src="https://images.pexels.com/photos/1496266/pexels-photo-1496266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                         </div>
                     </div>
-                    <div className='ml-40'>
+                    <div className='xl:ml-40 pt-[20rem] xl:pt-0 w-full'>
                         <h1 className='text-2xl  font-bold p-10 text-center '>VIE et ENVIRONNEMENT RWANDA</h1>
-                        <p className='text-center pl-40 pb-20'>Deforestation is a very big problem in developing countries include Rwanda, 70.2% of the Rwanda population lives in the rural areas parts of the country most of the part depends on charcoal and fuel-wood for fuel supply which requires cutting of forest this one causes a reduction in forest products a reduction in environmental services such as soil protection and damage to biodiversity.     Consequently, access to tree products (timber, poles, fodder and fruits), food security, climate change, and diseases is a serious problem in sub-Saharan Africa and particularly in rural areas of Rwanda caused by deforestation.
+                        <p className='text-center pl-2 xl:pl-60 pb-20'>Deforestation is a very big problem in developing countries include Rwanda, 70.2% of the Rwanda population lives in the rural areas parts of the country most of the part depends on charcoal and fuel-wood for fuel supply which requires cutting of forest this one causes a reduction in forest products a reduction in environmental services such as soil protection and damage to biodiversity.     Consequently, access to tree products (timber, poles, fodder and fruits), food security, climate change, and diseases is a serious problem in sub-Saharan Africa and particularly in rural areas of Rwanda caused by deforestation.
 
                             This project aims to support community vulnerable with limited or no access to good livelihoods in the generating the income opportunities this is will facilitate reduction of all dependence to forest.</p>
-                        <ul className='font-bold mt-20'>
+                        <ul className='font-bold  xl:mt-40'>
                             <li>
                                 1. Increased number of trees production and plantation for soil erosion protection and improve soil fertility;                    </li>
                             <li>

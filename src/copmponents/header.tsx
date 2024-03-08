@@ -11,11 +11,11 @@ const contentStyle: React.CSSProperties = {
 const Header = () => {
   return (
     <div className='w-full flex'>
-      <div className='w-[40%] h-[80vh] bg-[#1e3737e7]'>
-        <h1 className='text-8xl text-white font-bold text-center pt-12'>Vie et Environne- ment Rwanda</h1>
-        <button className='bg-[#fe7f4c] text-white w-[10rem] h-12 ml-40 mt-10'>Donate</button>
+      <div className='w-[40%] h-[80vh] hidden sm:block bg-[#1e3737e7]'>
+        <h1 className='md:text-4xl lg:text-6xl xl:text-8xl text-white font-bold text-center pt-32 xl:pt-14'>Vie et Environne- ment Rwanda</h1>
+        <button className='bg-[#fe7f4c] text-white w-[10rem] h-12 ml-20 lg:ml-40 mt-20 xl:mt-10'>Donate</button>
       </div>
-    <div className='w-[60%] h-[80vh]'>
+    <div className='sm:w-[60%] w-full  h-[80vh]'>
         <Carousel autoplay>
     <div className="sliderTwo">
     <h3 className='text-6xl text-white font-bold pt-[12rem]  text-center'>We champion and support community</h3>
